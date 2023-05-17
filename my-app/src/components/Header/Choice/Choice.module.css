@@ -1,0 +1,44 @@
+.button {
+    width: 300px;
+    height: 65px;
+    border-radius: 30px;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: #00c78b;
+    color: #FFFFFF;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.list {
+    position: absolute;
+    width: 300px;
+    padding: 20px 52px;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: #00c78b;
+    color: #FFFFFF;
+    border-radius: 30px;
+    top: 68px;
+    left: 0;
+}
+
+.item {
+    cursor: pointer;
+    line-height: 36px;
+    margin-bottom: 10px;
+}
+.item:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 1024px) {
+    .button {
+        width: 220px;
+        height: 45px;
+        font-size: 14px;
+    }
+}
